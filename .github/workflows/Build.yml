@@ -199,7 +199,6 @@ jobs:
           --include client-spoof `
           --include microg-support `
           --include settings `
-          --include custom-playback-speed `
           --include remember-video-quality `
           --include video-ads `
           --include general-ads `
