@@ -185,14 +185,25 @@ jobs:
           --apk "$PSScriptRoot\youtube.apk" `
           --bundles "$PSScriptRoot\revanced-patches.jar" `
           --merge "$PSScriptRoot\app-release-unsigned.apk" `
-          --exclude timeline-ads `
-          --exclude premium-icon-reddit `
-          --exclude general-reddit-ads `
-          --exclude pflotsh-ecmwf-subscription-unlock `
-          --exclude minimized-playback-music --exclude tasteBuilder-remover --exclude hide-get-premium --exclude compact-header --exclude upgrade-button-remover --exclude background-play --exclude music-microg-support --exclude music-video-ads --exclude codecs-unlock --exclude exclusive-audio-playback `
-          --exclude promo-code-unlock `
-          --exclude tiktok-download --exclude tiktok-seekbar --exclude tiktok-ads `
-          --exclude downloads --exclude amoled --exclude hide-autoplay-button --exclude premium-heading --exclude disable-fullscreen-panels --exclude old-quality-layout --exclude enable-wide-searchbar --exclude tablet-mini-player --exclude always-autorepeat --exclude enable-debugging --exclude custom-playback-speed --exclude hide-infocard-suggestions `
+          --include swipe-controls `
+          --include downloads `
+          --include disable-create-button `
+          --include return-youtube-dislike `
+          --include hide-autoplay-button `
+          --include disable-fullscreen-panels `
+          --include theme `
+          --include hide-shorts-button `
+          --include hide-watermark `
+          --include sponsorblock `
+          --include minimized-playback `
+          --include client-spoof `
+          --include microg-support `
+          --include settings `
+          --include custom-playback-speed `
+          --include remember-video-quality `
+          --include video-ads `
+          --include general-ads `
+          --exclusive `
           --clean `
           --temp-dir "$PSScriptRoot\Temp" `
           --out "$PSScriptRoot\revanced.apk"
